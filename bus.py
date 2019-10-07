@@ -1,6 +1,6 @@
 """
 bus.py
-Demonstrate a dictionary.
+Demonstrate a dictionary to output sog lyrics and then speak them
 """
 
 import sys
