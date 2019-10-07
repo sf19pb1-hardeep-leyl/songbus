@@ -15,7 +15,7 @@ bus = {
     "horn": "beep,beep,beep",
     "doors": "open and shut",
     "driver": "move on back",
-    "babies": "move on back",
+    "babies": "wah, wah, wah",
     "mommies": "shush, shush, shush",
     "muggers": "bang, bang, bang"
 }
