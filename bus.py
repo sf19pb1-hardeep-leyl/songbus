@@ -21,11 +21,11 @@ bus = {
 }
 
 song = ""
-song3 = " All through the town"
+line3 = " All through the town."
 for things in bus:
-    song1 = " The " + things + " on the bus go " + bus[things]
-    song2 = " " + bus[things] + "," + bus[things]
-    song = song + song1 + song2 + song3
+    line1_3 = " The " + things + " on the bus go " + bus[things] + ","
+    line2 = " " + bus[things] + "," + bus[things] + "."
+    song = song + line1_3 + line2 + line1_3 + line3
     
 try:
     textToSpeech = gtts.gTTS(text = song, lang = lang, slow = True)
