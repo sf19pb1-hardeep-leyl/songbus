@@ -28,7 +28,7 @@ for things in bus:
     song = song + line1_3 + line2 + line1_3 + line3
     
 try:
-    textToSpeech = gtts.gTTS(text = song, lang = lang, slow = True)
+    textToSpeech = gtts.gTTS(text = song, lang = "en-us", slow = True)
 except BaseException as error:
     print(error, file = sys.stderr)
     sys.exit(1)
